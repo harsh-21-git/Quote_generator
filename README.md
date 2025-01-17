@@ -1,3 +1,4 @@
+![image](https://github.com/user-attachments/assets/0b78f68d-2094-4985-9b76-c457a98d7c28)
 # Quote Generator
 
 ## Overview
