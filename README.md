@@ -1,4 +1,4 @@
-# Random Quote Generator
+# Quote Generator
 
 ## Overview
 This project is a simple web-based "Random Quote Generator" that fetches a random quote from a MySQL database. The application is built using HTML, CSS, JavaScript, PHP, and MySQL, and runs locally using XAMPP.
