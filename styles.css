@@ -1,0 +1,79 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b);
+    color: #fff;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #FFD700; /* Gold color for title */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+button {
+    padding: 12px 30px;
+    background-color: #FFD700;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ffcc00; /* Lighter gold on hover */
+}
+
+#quoteText {
+    font-size: 24px;
+    font-style: italic;
+    margin: 20px 0;
+    line-height: 1.5;
+    color: #fff;
+}
+
+#quoteAuthor {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFD700;
+}
+
+/* Animation for fading in content */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
